@@ -1,0 +1,117 @@
+import { StyleSheet } from 'react-native';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FFFFFF',
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    paddingHorizontal: 15,
+    paddingVertical: 10,
+    alignItems: 'center',
+    backgroundColor: '#FCE4EC',
+  },
+  searchInput: {
+    flex: 1,
+    height: 40,
+    borderColor: '#FCB6E7',
+    borderWidth: 1,
+    borderRadius: 10,
+    paddingHorizontal: 10,
+    backgroundColor: '#FFFFFF',
+    color: '#A359D4',
+  },
+  searchButton: {
+    marginLeft: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  searchIcon: {
+    fontSize: 20,
+    color: '#FCB6E7',
+  },
+  imoveisContainer: {
+    flex: 1,
+    paddingHorizontal: 15,
+    paddingTop: 10,
+  },
+  imovelCard: {
+    backgroundColor: '#FCE4EC',
+    borderRadius: 10,
+    padding: 15,
+    marginBottom: 15,
+    flexDirection: 'row',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  imovelImage: {
+    width: 100,
+    height: 100,
+    borderRadius: 10,
+    marginRight: 15,
+  },
+  imovelInfo: {
+    flex: 1,
+    justifyContent: 'space-between',
+  },
+  imovelTitulo: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#A359D4',
+    marginBottom: 5,
+  },
+  imovelDescricao: {
+    fontSize: 14,
+    color: '#77338E',
+    marginBottom: 10,
+  },
+  buttonContainer: {
+    flexDirection: 'row',
+    justifyContent: 'flex-start',
+  },
+  editButton: {
+    backgroundColor: '#FFEB3B',
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 5,
+    marginRight: 10,
+  },
+  editButtonText: {
+    color: '#000',
+    fontWeight: 'bold',
+  },
+  deleteButton: {
+    backgroundColor: '#F44336',
+    paddingHorizontal: 10,
+    paddingVertical: 5,
+    borderRadius: 5,
+  },
+  deleteButtonText: {
+    color: '#FFFFFF',
+    fontWeight: 'bold',
+  },
+  addButton: {
+    position: 'absolute',
+    bottom: 20,
+    right: 20,
+    backgroundColor: '#4CAF50',
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    shadowRadius: 4,
+    elevation: 5,
+  },
+  addButtonText: {
+    fontSize: 30,
+    color: '#FFFFFF',
+  },
+});
